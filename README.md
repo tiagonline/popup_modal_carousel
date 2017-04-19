@@ -6,7 +6,7 @@ O objetivo é testar modais, popups e carrossel de fotos do bootstrap.
 
 # O projeto está estruturado da seguinte forma:
 
-- popup
+- popup_modal_carousel
     * cucumber
       + features
         * hooks
@@ -37,7 +37,7 @@ npm install -g chromedriver
 # Configurando o ambiente:
 
 - Necessário ruby 2.3.3
-- Instalando o bundler. Navegue na pasta \popup e execute o seguinte comando:
+- Instalando o bundler. Navegue na pasta \popup_modal_carousel e execute o seguinte comando:
 
 ```ruby
 gem install bundler
@@ -52,12 +52,12 @@ bundle install
 
 # Executando os testes:
 
-Na pasta \popup\cucumber, execute o comando abaixo para execução de todos os testes:
+Na pasta \popup_modal_carousel\cucumber, execute o comando abaixo para execução de todos os testes:
 
 ```ruby
 cucumber
 ```
 
 # Relatório dos testes em HTML:
-Após a execução dos testes estará disponível um relatório na pasta \popup\cucumber\features_report.html
+Após a execução dos testes estará disponível um relatório na pasta \popup_modal_carousel\cucumber\features_report.html
 obs.: Os screenshots estarão disponíveis no pé de cada funcionalidade do relatório.
